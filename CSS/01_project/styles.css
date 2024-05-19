@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    color: white;
+    background-color: #000000;
+    overflow-x: hidden; 
+}
+
+#my_head {
+    color: rgb(233, 21, 21);
+    font-size: 60px;
+}
+
+/* difference b/w inline, block, inline-block */
+
+img {
+    width: 500px;
+    height: 500px;
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.grn {
+    background-color: green;
+}
+
+.bl {
+    color: rgb(0, 0, 0);
+}
+
+.fnt {
+    font-size: 50px;
+}
+
+.boxes {
+    width: 200px; 
+    height: 100%; 
+    background-color: blue; 
+    border: 3px solid black
+}
+
+.sub-box{
+    display: flex;       
+    padding: 20px;
+}
+
+.outer-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
